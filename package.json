@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "jiahui <2303058491@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "echarts": "^5.4.2",
+    "echarts-for-react": "^3.0.2",
+    "umi": "^4.0.67"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}

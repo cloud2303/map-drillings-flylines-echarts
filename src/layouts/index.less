@@ -1,0 +1,65 @@
+#root{
+
+}
+.wrapper {
+    height: 100%;
+    background-color: blue;
+    display: flex;
+}
+.left{
+  flex:7;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+
+  .left_top{
+    flex:1;
+    background-color: pink;
+    display: flex;
+   
+  }
+  
+  .left_center{
+    display: flex;
+    flex:1;
+    background-color: green;
+  
+  }
+  .left_bottom{
+    display: flex;
+    flex:1;
+    background-color: orange;
+  }
+}
+.right{
+  flex:7;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  .right_top{
+    flex:1;
+    background-color: pink;
+  }
+  .right_center{
+    flex:1;
+    background-color: orange;
+  }
+  .right_bottom{
+    flex:1;
+    background-color: green;
+  }
+}
+.center{
+  flex:10;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  .center_top{
+    flex:3;
+    background-color: pink;
+  }
+  .center_bottom{
+    flex:1;
+    background-color: orange;
+  }
+}
